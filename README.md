@@ -9,6 +9,9 @@ Vanilla Javascript tutorial project #10 presented by John Smilga
 ### calculate and toggle height of the links:
 -getBoundingClientrect();
 
--links-container is nb as a parent container with an initial height of 0 to wrap around the links giving a reference to the total height.
+-links_container is nb as a parent container with an initial height of 0 to wrap around the links giving a reference to the total height.
 links height is used for new toggle value as the links will have the height value required;
-- 
+
+## media query problems
+-height set to auto on bigger screens;
+-toggle implements inline styling which needs to be overridden in the css with !IMPORTANT flag. 
