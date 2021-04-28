@@ -14,4 +14,8 @@ links height is used for new toggle value as the links will have the height valu
 
 ## media query problems
 -height set to auto on bigger screens;
--toggle implements inline styling which needs to be overridden in the css with !IMPORTANT flag. 
+-toggle implements inline styling which needs to be overridden in the css with !IMPORTANT flag.
+
+## Fixed navbar
+-navbar fixed to vp when user scrolls past the height of the navbar by setting up a fixed-nav class.
+-scroll event listener.
