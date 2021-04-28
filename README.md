@@ -19,3 +19,7 @@ links height is used for new toggle value as the links will have the height valu
 ## Fixed navbar
 -navbar fixed to vp when user scrolls past the height of the navbar by setting up a fixed-nav class.
 -scroll event listener.
+
+## smooth scrolling: 
+-add elements with .scroll-link to variable and use forEach to prevent the default scroll. (e.preventDefault());
+-find specific sections using #id and e.target value  
